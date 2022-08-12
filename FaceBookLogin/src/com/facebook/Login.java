@@ -16,7 +16,7 @@ public class Login {
 		WebElement loginPass = driver.findElement(By.xpath("//*[@id=\"pass\"]"));
 		loginPass.sendKeys("password");
 		WebElement btnCreate = driver.findElement(By.xpath("//button[contains(text(),'Log In')]"));
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		btnCreate.click();
 		Thread.sleep(5000);
 		driver.navigate().back();
